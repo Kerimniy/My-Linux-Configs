@@ -1,0 +1,209 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+
+    "logo": {
+    "source": "alt",
+    "padding": {
+      "top": 2,
+      "left": 2
+    },
+    "width": 10,
+  },
+
+  "modules": [
+
+    {
+      "type": "title",
+      "format": " : \u001b[1m{user-name}@{host-name}\u001b[0m",
+      "keyColor": "38;2;195;221;225"
+    },
+
+    "break",
+
+    {
+      "type": "separator",
+      "string": "╭──|Hardware|────────────────────────────╮"
+    },
+    {
+      "type": "host",
+      "key": "│ 󰌢 Host",
+      "keyColor": "38;2;195;221;225"
+    },
+        {
+      "type": "cpu",
+      "key": "│ 󰍛 CPU",
+      "keyColor": "38;2;195;221;225"
+    },
+    {
+      "type": "gpu",
+      "key": "│ 󰍹 GPU",
+      "keyColor": "38;2;195;221;225"
+    },
+    {
+      "type": "memory",
+      "key": "│ 󰘚 Memory",
+      "keyColor": "38;2;195;221;225"
+    },
+    {
+      "type": "display",
+      "key": "│ 󰹑 Display",
+      "keyColor": "38;2;195;221;225"
+    },
+    {
+      "type": "swap",
+      "key": "│ 󰓡 Swap",
+      "keyColor": "38;2;195;221;225"
+    },
+    {
+      "type": "disk",
+      "key": "│ 󰋊 Disk",
+      "keyColor": "38;2;195;221;225"
+    },
+    {
+      "type": "localip",
+      "key": "│ 󰩟 Local IP",
+      "keyColor": "38;2;195;221;225"
+    },
+    {
+      "type": "battery",
+      "key": "│ 󰁹 Battery",
+      "keyColor": "38;2;195;221;225"
+    },
+    {
+      "type": "poweradapter",
+      "key": "│ 󰚥 Power Adapter",
+      "keyColor": "38;2;195;221;225"
+    },
+    {
+      "type": "separator",
+      "string": "╰────────────────────────────────────────╯"
+    },
+    {
+      "type": "separator",
+      "string": "╭──|Software|────────────────────────────╮"
+    },
+    {
+      "type": "os",
+      "key": "│  OS",
+      "keyColor": "38;2;195;221;225"
+    },
+
+    {
+      "type": "kernel",
+      "key": "│  Kernel",
+      "keyColor": "38;2;195;221;225"
+    },
+    {
+      "type": "de",
+      "key": "│ 󰕮 DE",
+      "keyColor": "38;2;195;221;225"
+    },
+    {
+      "type": "wm",
+      "key": "│ 󱂬 WM",
+      "keyColor": "38;2;195;221;225"
+    },
+    {
+      "type": "packages",
+      "key": "│ 󰏖 Packages",
+      "keyColor": "38;2;195;221;225"
+    },
+    {
+      "type": "shell",
+      "key": "│ 󱆃 Shell",
+      "keyColor": "38;2;195;221;225"
+    },
+    {
+      "type": "terminal",
+      "key": "│ 󰆍 Terminal",
+      "keyColor": "38;2;195;221;225"
+    },
+     {
+      "type": "separator",
+      "string": "╰────────────────────────────────────────╯"
+    },
+
+    {
+      "type": "separator",
+      "string": "╭────|UI/UX|─────────────────────────────╮"
+    },
+    {
+      "type": "wmtheme",
+      "key": "│ 󰉼 WM Theme",
+      "keyColor": "38;2;195;221;225"
+    },
+    {
+      "type": "theme",
+      "key": "│ 󰉼 Theme",
+      "keyColor": "38;2;195;221;225"
+    },
+    {
+      "type": "icons",
+      "key": "│ 󰀻 Icons",
+      "keyColor": "38;2;195;221;225"
+    },
+    {
+      "type": "font",
+      "key": "│ 󰛖 Font",
+      "keyColor": "38;2;195;221;225"
+    },
+    {
+      "type": "cursor",
+      "key": "│ 󰆿 Cursor",
+      "keyColor": "38;2;195;221;225"
+    },
+
+    {
+      "type": "terminalfont",
+      "key": "│ 󰛖 Terminal Font",
+      "keyColor": "38;2;195;221;225"
+    },
+
+    {
+      "type": "locale",
+      "key": "│ 󰙔 Locale",
+      "keyColor": "38;2;195;221;225"
+    },
+    {
+      "type": "separator",
+      "string": "╰────────────────────────────────────────╯"
+    },
+
+
+    {
+      "type": "separator",
+      "string": "╭──|Uptime/Age|──────────────────────────────────╮"
+    },
+
+    {
+      "type": "command",
+      "key": "│ 󱦟 OS Age",
+      "keyColor": "38;2;195;221;225",
+      "text": "birth=$(stat -c %W /); now=$(date +%s); echo $(( (now - birth) / 86400 )) days"
+    },
+    {
+      "type": "uptime",
+      "key": "│ 󱤦 Uptime",
+      "keyColor": "38;2;195;221;225"
+    },
+
+    {
+      "type": "separator",
+      "string": "╰────────────────────────────────────────╯"
+    },
+
+
+    {
+      "type": "colors",
+      "paddingLeft": 2.75,
+      "symbol": "square"
+    },
+
+
+    {
+      "type": "colors",
+      "paddingLeft": 2.75,
+      "symbol": "triangle"
+    }
+  ]
+}
